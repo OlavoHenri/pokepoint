@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(56, 56, 172); 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.background-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/PAISAGEM\ POKEMON.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-container2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/capa\ princial1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+.background-container3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Regiões.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-y: auto;
+}
+
+.container-pokemon{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 350px;
+    background-color: rgba(240, 248, 255, 0.851);
+    border: 7px solid aliceblue;
+    border-radius: 5%;
+    gap: 20px
+}
+
+h1, h2, h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    width: 200px;
+    height: 100%;
+}
+
+img:hover{
+    width: 210px;
+    height: 120%;
+    
+}
+
+.background-grama{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/capa-planta2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-fogo{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/capa-fogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-agua{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/capa-agua.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokemon-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+    background-color: rgba(240, 248, 255, 0.851);
+    border: 7px solid aliceblue;
+    border-radius: 5%;
+    gap: 20px;
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: rgba(240, 248, 255, 0.819);
+    gap: 20px;
+}
+
+.container-principal2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow-y: auto;
+}
